@@ -1,0 +1,67 @@
+.card-container {
+  padding: 16px;
+}
+
+.card-header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pessoa-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.transacao-form {
+  margin-top: 16px;
+  padding: 32px;
+}
+
+.transacao-form h2 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.transacao-form div {
+  margin-bottom: 16px;
+}
+
+.transacao-form label {
+  font-weight: bold;
+  display: block;
+}
+
+.transacao-form input,
+.transacao-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.list-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.card-buttons .save-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.card-buttons .cancel-btn {
+  background-color: #f8f9fa;
+  color: black;
+  border: 1px solid #ccc;
+}

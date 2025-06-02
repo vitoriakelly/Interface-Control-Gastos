@@ -1,0 +1,46 @@
+.card {
+  padding: 24px;
+  margin-top: 24px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-content input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.card-buttons .save-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.card-buttons .cancel-btn {
+  background-color: #f8f9fa;
+  color: black;
+  border: 1px solid #ccc;
+}
